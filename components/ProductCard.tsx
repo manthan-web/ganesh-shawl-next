@@ -1,5 +1,6 @@
 import React from 'react';
 import { Product } from '../data/types';
+import Image from 'next/image';
 
 
 interface ProductCardProps {
@@ -14,9 +15,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onImageClick }) => {
         className="relative h-auto overflow-hidden cursor-pointer"
         onClick={onImageClick}
       >
-        <img 
+        <Image 
           src={product.image} 
           alt={product.name} 
+          width={400}
+          height={400}
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
         />
         <div className="absolute inset-0 bg-black opacity-0 hover:opacity-20 transition-opacity duration-300"></div>

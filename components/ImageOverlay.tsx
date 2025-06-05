@@ -1,5 +1,7 @@
+"use client"
 import React, { useEffect, useRef } from 'react';
 import { X } from 'lucide-react';
+import Image from 'next/image';
 
 interface ImageOverlayProps {
   imageSrc: string;
@@ -43,10 +45,12 @@ const ImageOverlay: React.FC<ImageOverlayProps> = ({ imageSrc, onClose }) => {
         >
           <X size={24} />
         </button>
-        <img 
+        <Image 
           src={imageSrc} 
           alt="Product" 
           className="max-w-full max-h-[90vh] object-contain"
+          width={400}
+          height={400}
         />
       </div>
     </div>

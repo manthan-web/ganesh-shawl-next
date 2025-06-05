@@ -1,6 +1,8 @@
+"use client"
 import React, { useEffect, useRef } from 'react';
 import { X } from 'lucide-react';
 import { Product } from '../data/types';
+import Image from 'next/image';
 
 interface ProductModalProps {
   product: Product;
@@ -39,10 +41,12 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
         className="bg-white rounded-lg shadow-xl max-w-4xl w-full overflow-hidden flex flex-col md:flex-row max-h-[90vh]"
       >
         <div className="md:w-1/2 h-72 md:h-auto relative">
-          <img 
+          <Image 
             src={product.image} 
             alt={product.name} 
             className="w-full h-full object-cover"
+            width={500}
+            height={500}
           />
         </div>
         <div className="md:w-1/2 p-6 md:p-8 overflow-y-auto">

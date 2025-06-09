@@ -247,7 +247,7 @@ export const products: Product[] = [
   },
   {
     id: 17,
-    name: "Knitted Stole - Classic Gray",
+    name: "Knitted Stole",
     description:
       "Soft gray knitted stole with a subtle ribbed pattern. Lightweight and perfect for layering in all seasons.",
     price: 1750,
@@ -262,7 +262,7 @@ export const products: Product[] = [
   },
   {
     id: 18,
-    name: "Knitted Stole - Pastel Blue",
+    name: "Knitted Stole",
     description:
       "Pastel blue knitted stole with a delicate cable design. Adds a touch of color and warmth to your outfit.",
     price: 1850,
@@ -277,7 +277,7 @@ export const products: Product[] = [
   },
   {
     id: 19,
-    name: "Knitted Stole - Earthy Brown",
+    name: "Knitted Stole",
     description:
       "Earthy brown knitted stole with a chunky weave. Cozy and stylish for chilly days.",
     price: 1900,
@@ -292,7 +292,7 @@ export const products: Product[] = [
   },
   {
     id: 20,
-    name: "Knitted Stole - Blush Pink",
+    name: "Knitted Stole",
     description:
       "Blush pink knitted stole with a soft, fluffy texture. Feminine and elegant for any occasion.",
     price: 2000,
@@ -307,7 +307,7 @@ export const products: Product[] = [
   },
   {
     id: 21,
-    name: "Knitted Stole - Olive Green",
+    name: "Knitted Stole",
     description:
       "Olive green knitted stole with a basket weave pattern. Durable and warm for winter months.",
     price: 2100,
@@ -322,7 +322,7 @@ export const products: Product[] = [
   },
   {
     id: 22,
-    name: "Knitted Stole - Mustard Yellow",
+    name: "Knitted Stole",
     description:
       "Bright mustard yellow knitted stole with a chevron pattern. Adds a pop of color to your winter wardrobe.",
     price: 1950,
@@ -337,7 +337,7 @@ export const products: Product[] = [
   },
   {
     id: 23,
-    name: "Knitted Stole - Charcoal Black",
+    name: "Knitted Stole",
     description:
       "Charcoal black knitted stole with a modern geometric knit. Sleek and versatile for all occasions.",
     price: 2200,
@@ -352,7 +352,7 @@ export const products: Product[] = [
   },
   {
     id: 24,
-    name: "Knitted Stole - Cream White",
+    name: "Knitted Stole",
     description:
       "Cream white knitted stole with a classic cable knit. Timeless and elegant for any season.",
     price: 2050,
@@ -367,7 +367,7 @@ export const products: Product[] = [
   },
   {
     id: 25,
-    name: "Knitted Stole - Deep Red",
+    name: "Knitted Stole",
     description:
       "Deep red knitted stole with a bold, textured pattern. Statement piece for winter fashion.",
     price: 2150,

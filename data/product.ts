@@ -3,6 +3,10 @@ import { Product } from './types';
 
 export const heroImage = 'https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/fg-hello.jpg';
 
+
+const url = "http://192.168.29.93:9000/shawls-images/IMG_0086.png"
+console.log(url)
+
 export const products: Product[] = [
   {
     id: 1,
@@ -243,107 +247,137 @@ export const products: Product[] = [
   },
   {
     id: 17,
-    name: "Knitted Stole",
+    name: "Knitted Stole - Classic Gray",
     description:
-      "Classic check pattern woolen muffler in earthy tones. A timeless accessory that adds sophistication to your winter wardrobe.",
-    price: 1800,
+      "Soft gray knitted stole with a subtle ribbed pattern. Lightweight and perfect for layering in all seasons.",
+    price: 1750,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-three.jpeg",
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-ten.jpg",
     details: {
-      material: "90% Wool, 10% Nylon",
-      dimensions: "1.4m x 0.3m",
+      material: "85% Wool, 15% Acrylic",
+      dimensions: "1.6m x 0.4m",
       care: "Hand wash cold",
     },
   },
   {
     id: 18,
-    name: "Knitted Stole",
+    name: "Knitted Stole - Pastel Blue",
     description:
-      "Classic check pattern woolen muffler in earthy tones. A timeless accessory that adds sophistication to your winter wardrobe.",
-    price: 1800,
+      "Pastel blue knitted stole with a delicate cable design. Adds a touch of color and warmth to your outfit.",
+    price: 1850,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-four.jpeg",
-    details: {
-      material: "90% Wool, 10% Nylon",
-      dimensions: "1.4m x 0.3m",
-      care: "Hand wash cold",
-    },
-  },
-  {
-    id: 19,
-    name: "Knitted Cable Stole",
-    description:
-      "Luxurious chunky cable-knit stole in creamy off-white. Features intricate cable patterns that add texture and visual interest.",
-    price: 2200,
-    category: "knitted-stole",
-    image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-five.jpeg",
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-eleven.jpg",
     details: {
       material: "100% Merino Wool",
-      dimensions: "1.6m x 0.4m",
-      care: "Dry clean recommended",
-    },
-  },
-  {
-    id: 20,
-    name: "Winter Knit Stole",
-    description:
-      "Soft and warm ribbed knit stole in a rich burgundy shade. Perfect for winter layering with a contemporary, structured look.",
-    price: 1950,
-    category: "knitted-stole",
-    image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-six.jpeg",
-    details: {
-      material: "80% Wool, 20% Acrylic",
-      dimensions: "1.5m x 0.35m",
-      care: "Hand wash in cold water",
-    },
-  },
-  {
-    id: 21,
-    name: "Honeycomb Knitted Stole",
-    description:
-      "Elegant honeycomb pattern knitted stole in a versatile gray tone. The textured pattern adds depth while maintaining a lightweight feel.",
-    price: 2100,
-    category: "knitted-stole",
-    image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-seven.jpeg",
-    details: {
-      material: "70% Alpaca, 30% Silk",
-      dimensions: "1.7m x 0.4m",
-      care: "Gentle hand wash or dry clean",
-    },
-  },
-  {
-    id: 22,
-    name: "Multicolor Knitted Stole",
-    description:
-      "Vibrant multicolor knitted stole featuring a gradient pattern. Hand-knitted with premium yarn for superior comfort and style.",
-    price: 2350,
-    category: "knitted-stole",
-    image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-eight.jpeg",
-    details: {
-      material: "100% Fine Wool",
-      dimensions: "1.8m x 0.45m",
+      dimensions: "1.7m x 0.35m",
       care: "Dry clean only",
     },
   },
   {
-    id: 23,
-    name: "Fringed Knitted Stole",
+    id: 19,
+    name: "Knitted Stole - Earthy Brown",
     description:
-      "Cozy knitted stole with elegant fringed ends in natural beige. The loose knit pattern creates a lightweight, breathable accessory for transitional seasons.",
-    price: 1850,
+      "Earthy brown knitted stole with a chunky weave. Cozy and stylish for chilly days.",
+    price: 1900,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-nine.jpeg",
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-twelve.jpg",
     details: {
-      material: "60% Cotton, 40% Linen",
-      dimensions: "1.9m x 0.5m",
-      care: "Machine wash cold on gentle cycle",
+      material: "90% Wool, 10% Nylon",
+      dimensions: "1.5m x 0.4m",
+      care: "Hand wash cold",
+    },
+  },
+  {
+    id: 20,
+    name: "Knitted Stole - Blush Pink",
+    description:
+      "Blush pink knitted stole with a soft, fluffy texture. Feminine and elegant for any occasion.",
+    price: 2000,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-thirteen.jpg",
+    details: {
+      material: "80% Angora, 20% Wool",
+      dimensions: "1.6m x 0.38m",
+      care: "Dry clean recommended",
+    },
+  },
+  {
+    id: 21,
+    name: "Knitted Stole - Olive Green",
+    description:
+      "Olive green knitted stole with a basket weave pattern. Durable and warm for winter months.",
+    price: 2100,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-fourteen.jpg",
+    details: {
+      material: "70% Wool, 30% Acrylic",
+      dimensions: "1.8m x 0.4m",
+      care: "Hand wash or dry clean",
+    },
+  },
+  {
+    id: 22,
+    name: "Knitted Stole - Mustard Yellow",
+    description:
+      "Bright mustard yellow knitted stole with a chevron pattern. Adds a pop of color to your winter wardrobe.",
+    price: 1950,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-fifteen.jpg",
+    details: {
+      material: "100% Wool",
+      dimensions: "1.7m x 0.36m",
+      care: "Hand wash cold",
+    },
+  },
+  {
+    id: 23,
+    name: "Knitted Stole - Charcoal Black",
+    description:
+      "Charcoal black knitted stole with a modern geometric knit. Sleek and versatile for all occasions.",
+    price: 2200,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-sixteen.jpg",
+    details: {
+      material: "95% Wool, 5% Spandex",
+      dimensions: "1.6m x 0.4m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 24,
+    name: "Knitted Stole - Cream White",
+    description:
+      "Cream white knitted stole with a classic cable knit. Timeless and elegant for any season.",
+    price: 2050,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-seventeen.jpg",
+    details: {
+      material: "100% Merino Wool",
+      dimensions: "1.7m x 0.38m",
+      care: "Hand wash or dry clean",
+    },
+  },
+  {
+    id: 25,
+    name: "Knitted Stole - Deep Red",
+    description:
+      "Deep red knitted stole with a bold, textured pattern. Statement piece for winter fashion.",
+    price: 2150,
+    category: "knitted-stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-eighteen.jpg",
+    details: {
+      material: "85% Wool, 15% Nylon",
+      dimensions: "1.8m x 0.4m",
+      care: "Hand wash cold",
     },
   },
 ];

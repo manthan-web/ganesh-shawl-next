@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/generic-images/**',
       },
+      {
+        protocol: 'http',
+        hostname: '192.168.29.93',
+        port: '9000',
+        pathname: '/shawls-images/**',
+      },
     ],
   },
 };

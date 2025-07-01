@@ -156,6 +156,66 @@ export const products: Product[] = [
     },
   },
   {
+    id: 26,
+    name: "Stole",
+    description:
+      "Elegant beige stole with subtle gold zari border. Perfect for festive and formal occasions.",
+    price: 2600,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-6.jpg",
+    details: {
+      material: "Silk Blend",
+      dimensions: "1.8m x 0.5m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 27,
+    name: "Stole",
+    description:
+      "Classic navy blue stole with fine woven stripes. Lightweight and versatile for daily wear.",
+    price: 2300,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-7.jpg",
+    details: {
+      material: "100% Cotton",
+      dimensions: "2m x 0.6m",
+      care: "Gentle machine wash",
+    },
+  },
+  {
+    id: 28,
+    name: "Stole",
+    description:
+      "Soft blush pink stole with delicate floral embroidery. Adds a feminine touch to any outfit.",
+    price: 2500,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-8.jpg",
+    details: {
+      material: "70% Silk, 30% Viscose",
+      dimensions: "1.9m x 0.5m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 29,
+    name: "Stole",
+    description:
+      "Vibrant green stole with digital paisley prints. Bright and bold for statement styling.",
+    price: 2450,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-9.jpg",
+    details: {
+      material: "Modal Silk",
+      dimensions: "2m x 0.55m",
+      care: "Dry clean only",
+    },
+  },
+  {
     id: 11,
     name: "Acrylic Shawl",
     description:

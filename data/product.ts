@@ -440,4 +440,139 @@ export const products: Product[] = [
       care: "Hand wash cold",
     },
   },
+  {
+    id: 30,
+    name: "Polypure Shawl",
+    description:
+      "Elegant plain wool shawl in a soft beige color. Lightweight and warm, suitable for everyday use.",
+    price: 2200,
+    category: "shawl",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-10.jpg",
+    details: {
+      material: "100% Wool",
+      dimensions: "2m x 1m",
+      care: "Hand wash cold or dry clean",
+    },
+  },
+  {
+    id: 31,
+    name: "Polycure Shawl",
+    description:
+      "Classic off-white shawl with a subtle border. Versatile and timeless for all occasions.",
+    price: 2300,
+    category: "shawl",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-11.jpg",
+    details: {
+      material: "Wool Blend",
+      dimensions: "2.1m x 1m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 33,
+    name: "Shawl",
+    description:
+      "Light brown woolen shawl with a soft texture. Ideal for both men and women.",
+    price: 2400,
+    category: "shawl",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-13.jpg",
+    details: {
+      material: "Wool Blend",
+      dimensions: "2m x 1m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 34,
+    name: "Shawl",
+    description:
+      "Rich charcoal black shawl with a smooth finish. A must-have winter essential.",
+    price: 2500,
+    category: "shawl",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-14.jpg",
+    details: {
+      material: "100% Wool",
+      dimensions: "2.2m x 1m",
+      care: "Hand wash or dry clean",
+    },
+  },
+  {
+    id: 35,
+    name: "Stole",
+    description:
+      "Elegant maroon stole with a soft silk blend. Perfect for festive and formal occasions.",
+    price: 2700,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-10.jpg",
+    details: {
+      material: "Silk Blend",
+      dimensions: "1.8m x 0.5m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 36,
+    name: "Stole",
+    description:
+      "Classic black stole with a subtle sheen. Versatile for both day and night looks.",
+    price: 2600,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-11.jpg",
+    details: {
+      material: "100% Modal Silk",
+      dimensions: "1.9m x 0.5m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 37,
+    name: "Stole",
+    description:
+      "Soft pastel green stole with delicate embroidery. Adds a fresh touch to any outfit.",
+    price: 2550,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-12.jpg",
+    details: {
+      material: "70% Silk, 30% Cotton",
+      dimensions: "1.8m x 0.5m",
+      care: "Hand wash cold",
+    },
+  },
+  {
+    id: 38,
+    name: "Stole",
+    description:
+      "Vibrant orange stole with digital floral prints. Bright and bold for statement styling.",
+    price: 2500,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-13.jpg",
+    details: {
+      material: "Modal Silk",
+      dimensions: "2m x 0.55m",
+      care: "Dry clean only",
+    },
+  },
+  {
+    id: 39,
+    name: "Stole",
+    description:
+      "Soft cream stole with a gold zari border. Subtle and elegant for special occasions.",
+    price: 2650,
+    category: "stole",
+    image:
+      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-14.jpg",
+    details: {
+      material: "Silk Blend",
+      dimensions: "1.8m x 0.5m",
+      care: "Dry clean only",
+    },
+  },
 ];

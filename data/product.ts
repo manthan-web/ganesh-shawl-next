@@ -4,8 +4,6 @@ import { Product } from './types';
 export const heroImage = 'https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/fg-hello.jpg';
 
 
-const url = "http://192.168.29.93:9000/shawls-images/IMG_0086.png"
-console.log(url)
 
 export const products: Product[] = [
   {

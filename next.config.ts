@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
         port: '9000',
         pathname: '/shawls-images/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'gbsjmkhsuijrirdfttiu.supabase.co',
+        port: '',
+        pathname: '/storage/v1/object/public/manthan/**',
+      },
     ],
   },
 };

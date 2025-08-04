@@ -14,7 +14,7 @@ export const products: Product[] = [
     price: 12500,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-1.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-1.jpg",
     details: {
       material: "100% Pashmina Wool",
       dimensions: "2m x 1m",

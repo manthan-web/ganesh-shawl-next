@@ -1,7 +1,7 @@
 import { Product } from './types';
 
 
-export const heroImage = 'https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/fg-hello.jpg';
+export const heroImage = 'https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/fg-hello.jpg';
 
 
 
@@ -29,7 +29,7 @@ export const products: Product[] = [
     price: 3500,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-1.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-1.jpg",
     details: {
       material: "70% Silk, 30% Cotton",
       dimensions: "1.8m x 0.5m",
@@ -58,7 +58,7 @@ export const products: Product[] = [
     price: 18000,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shalw-2.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shalw-2.jpg",
     details: {
       material: "Pure Cashmere",
       dimensions: "2.2m x 1m",
@@ -73,7 +73,7 @@ export const products: Product[] = [
     price: 2800,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-2.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-2.jpg",
     details: {
       material: "100% Pure Silk",
       dimensions: "1.8m x 0.5m",
@@ -87,7 +87,7 @@ export const products: Product[] = [
     price: 1800,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-two.jpeg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-two.jpeg",
     details: {
       material: "90% Wool, 10% Nylon",
       dimensions: "1.4m x 0.3m",
@@ -102,7 +102,7 @@ export const products: Product[] = [
     price: 8500,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-3.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-3.jpg",
     details: {
       material: "Wool with Silk Embroidery",
       dimensions: "2m x 1m",
@@ -117,7 +117,7 @@ export const products: Product[] = [
     price: 4200,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-3.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-3.jpg",
     details: {
       material: "70% Pashmina, 30% Silk",
       dimensions: "1.9m x 0.7m",
@@ -131,7 +131,7 @@ export const products: Product[] = [
     price: 1600,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-4.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-4.jpg",
     details: {
       material: "100% Handloom Cotton",
       dimensions: "2m x 0.6m",
@@ -146,7 +146,7 @@ export const products: Product[] = [
     price: 2400,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-5.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-5.jpg",
     details: {
       material: "Modal Silk",
       dimensions: "1.9m x 0.5m",
@@ -161,7 +161,7 @@ export const products: Product[] = [
     price: 2600,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-6.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-6.jpg",
     details: {
       material: "Silk Blend",
       dimensions: "1.8m x 0.5m",
@@ -176,7 +176,7 @@ export const products: Product[] = [
     price: 2300,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-7.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-7.jpg",
     details: {
       material: "100% Cotton",
       dimensions: "2m x 0.6m",
@@ -191,7 +191,7 @@ export const products: Product[] = [
     price: 2500,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-8.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-8.jpg",
     details: {
       material: "70% Silk, 30% Viscose",
       dimensions: "1.9m x 0.5m",
@@ -206,7 +206,7 @@ export const products: Product[] = [
     price: 2450,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-9.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-9.jpg",
     details: {
       material: "Modal Silk",
       dimensions: "2m x 0.55m",
@@ -221,7 +221,7 @@ export const products: Product[] = [
     price: 2100,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-4.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-4.jpg",
     details: {
       material: "100% Linen",
       dimensions: "2m x 0.55m",
@@ -236,7 +236,7 @@ export const products: Product[] = [
     price: 3200,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-5.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-5.jpg",
     details: {
       material: "Silk Brocade",
       dimensions: "2m x 0.6m",
@@ -251,7 +251,7 @@ export const products: Product[] = [
     price: 2700,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-6.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-6.jpg",
     details: {
       material: "100% Wool",
       dimensions: "1.8m x 0.5m",
@@ -266,7 +266,7 @@ export const products: Product[] = [
     price: 15500,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-7.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-7.jpg",
     details: {
       material: "100% Pashmina Wool",
       dimensions: "2m x 1m",
@@ -281,7 +281,7 @@ export const products: Product[] = [
     price: 2900,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-8.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-8.jpg",
     details: {
       material: "100% Fine Wool",
       dimensions: "2m x 0.7m",
@@ -296,7 +296,7 @@ export const products: Product[] = [
     price: 3100,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-9.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-9.jpg",
     details: {
       material: "Wool Blend",
       dimensions: "1.9m x 0.6m",
@@ -311,7 +311,7 @@ export const products: Product[] = [
     price: 1750,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-ten.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-ten.jpg",
     details: {
       material: "85% Wool, 15% Acrylic",
       dimensions: "1.6m x 0.4m",
@@ -326,7 +326,7 @@ export const products: Product[] = [
     price: 1850,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-eleven.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-eleven.jpg",
     details: {
       material: "100% Merino Wool",
       dimensions: "1.7m x 0.35m",
@@ -341,7 +341,7 @@ export const products: Product[] = [
     price: 1900,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-twelve.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-twelve.jpg",
     details: {
       material: "90% Wool, 10% Nylon",
       dimensions: "1.5m x 0.4m",
@@ -356,7 +356,7 @@ export const products: Product[] = [
     price: 2000,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-thirteen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-thirteen.jpg",
     details: {
       material: "80% Angora, 20% Wool",
       dimensions: "1.6m x 0.38m",
@@ -371,7 +371,7 @@ export const products: Product[] = [
     price: 2100,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-fourteen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-fourteen.jpg",
     details: {
       material: "70% Wool, 30% Acrylic",
       dimensions: "1.8m x 0.4m",
@@ -386,7 +386,7 @@ export const products: Product[] = [
     price: 1950,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-fifteen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-fifteen.jpg",
     details: {
       material: "100% Wool",
       dimensions: "1.7m x 0.36m",
@@ -401,7 +401,7 @@ export const products: Product[] = [
     price: 2200,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-sixteen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-sixteen.jpg",
     details: {
       material: "95% Wool, 5% Spandex",
       dimensions: "1.6m x 0.4m",
@@ -416,7 +416,7 @@ export const products: Product[] = [
     price: 2050,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-seventeen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-seventeen.jpg",
     details: {
       material: "100% Merino Wool",
       dimensions: "1.7m x 0.38m",
@@ -431,7 +431,7 @@ export const products: Product[] = [
     price: 2150,
     category: "knitted-stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/knited-eighteen.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-eighteen.jpg",
     details: {
       material: "85% Wool, 15% Nylon",
       dimensions: "1.8m x 0.4m",
@@ -446,7 +446,7 @@ export const products: Product[] = [
     price: 2200,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-10.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-10.jpg",
     details: {
       material: "100% Wool",
       dimensions: "2m x 1m",
@@ -461,7 +461,7 @@ export const products: Product[] = [
     price: 2300,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-11.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-11.jpg",
     details: {
       material: "Wool Blend",
       dimensions: "2.1m x 1m",
@@ -476,7 +476,7 @@ export const products: Product[] = [
     price: 2400,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-13.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-13.jpg",
     details: {
       material: "Wool Blend",
       dimensions: "2m x 1m",
@@ -491,7 +491,7 @@ export const products: Product[] = [
     price: 2500,
     category: "shawl",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/shawl-14.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/shawl-14.jpg",
     details: {
       material: "100% Wool",
       dimensions: "2.2m x 1m",
@@ -506,7 +506,7 @@ export const products: Product[] = [
     price: 2700,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-10.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-10.jpg",
     details: {
       material: "Silk Blend",
       dimensions: "1.8m x 0.5m",
@@ -521,7 +521,7 @@ export const products: Product[] = [
     price: 2600,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-11.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-11.jpg",
     details: {
       material: "100% Modal Silk",
       dimensions: "1.9m x 0.5m",
@@ -536,7 +536,7 @@ export const products: Product[] = [
     price: 2550,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-12.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-12.jpg",
     details: {
       material: "70% Silk, 30% Cotton",
       dimensions: "1.8m x 0.5m",
@@ -551,7 +551,7 @@ export const products: Product[] = [
     price: 2500,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-13.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-13.jpg",
     details: {
       material: "Modal Silk",
       dimensions: "2m x 0.55m",
@@ -566,7 +566,7 @@ export const products: Product[] = [
     price: 2650,
     category: "stole",
     image:
-      "https://minio-wgg8os0ks4og8gog0wgosckk.snext.in/generic-images/stole-14.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-14.jpg",
     details: {
       material: "Silk Blend",
       dimensions: "1.8m x 0.5m",

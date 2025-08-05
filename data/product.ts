@@ -176,7 +176,7 @@ export const products: Product[] = [
     price: 2300,
     category: "stole",
     image:
-      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-7.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan//stole-7.jpg",  
     details: {
       material: "100% Cotton",
       dimensions: "2m x 0.6m",
@@ -191,7 +191,7 @@ export const products: Product[] = [
     price: 2500,
     category: "stole",
     image:
-      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/stole-8.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan//stole-8.jpg",
     details: {
       material: "70% Silk, 30% Viscose",
       dimensions: "1.9m x 0.5m",
@@ -311,7 +311,7 @@ export const products: Product[] = [
     price: 1750,
     category: "knitted-stole",
     image:
-      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-ten.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan//knited-ten.jpg",
     details: {
       material: "85% Wool, 15% Acrylic",
       dimensions: "1.6m x 0.4m",
@@ -326,7 +326,7 @@ export const products: Product[] = [
     price: 1850,
     category: "knitted-stole",
     image:
-      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-eleven.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan//knited-eleven.jpg",
     details: {
       material: "100% Merino Wool",
       dimensions: "1.7m x 0.35m",
@@ -341,7 +341,7 @@ export const products: Product[] = [
     price: 1900,
     category: "knitted-stole",
     image:
-      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan/knited-twelve.jpg",
+      "https://gbsjmkhsuijrirdfttiu.supabase.co/storage/v1/object/public/manthan//knited-twelve.jpg",
     details: {
       material: "90% Wool, 10% Nylon",
       dimensions: "1.5m x 0.4m",

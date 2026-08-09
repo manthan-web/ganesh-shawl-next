@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     template: `%s | ${BRAND.name}`,
   },
   description:
-    "Ganesh Shawl Emporium — handcrafted shawls, stoles, and knitted stoles from the Ludhiana looms. Wholesale & bulk orders. Call +91 9872531240 for a quote.",
+    "Ganesh Shawl Emporium — shawl wholesaler and knitted stole manufacturer in Ludhiana. Handcrafted shawls, stoles, and knitted wear from the local looms. Wholesale & bulk orders, call +91 9872531240 for a quote.",
   openGraph: {
-    title: `${BRAND.name} — Handcrafted Shawls & Stoles, Ludhiana`,
+    title: `${BRAND.name} — Shawl Wholesaler & Handcrafted Stoles, Ludhiana`,
     description:
-      "Handcrafted shawls, stoles, and knitted wear from the Ludhiana looms. Wholesale and bulk orders, call +91 9872531240.",
+      "Two-generation merchant of shawls, stoles, and knitted wear from the Ludhiana looms. Wholesale and bulk orders from retailers across India, call +91 9872531240.",
     url: baseUrl,
     siteName: BRAND.name,
     type: "website",
@@ -61,7 +61,7 @@ export default function RootLayout({
     "@type": "Store",
     name: BRAND.name,
     description:
-      "Handcrafted shawls, stoles, and knitted wear from the Ludhiana looms. Wholesale and bulk orders.",
+      "Shawl wholesaler and knitted stole manufacturer in Ludhiana. Handcrafted shawls, stoles, and knitted wear for wholesale and bulk orders across India.",
     telephone: "+919872531240",
     email: "info@ganeshshawls.com",
     url: baseUrl,

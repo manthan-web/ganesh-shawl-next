@@ -16,7 +16,7 @@ export const categories: Category[] = [
     name: 'Knitted Stoles',
     tagline: 'Hand-knitted, worn-year-round warmth.',
     description:
-      'Our knitted stoles are handcrafted in Ludhiana from soft wool blends. Each piece is a single weave — cozy, breathable, and built to live through winters for years.',
+      'Knitted stole manufacturer and wholesale supplier in Ludhiana. Our stoles are handcrafted in soft wool blends — cozy, breathable, and built to live through winters for years.',
   },
   {
     slug: 'shawls',

@@ -22,8 +22,8 @@ export default function Home() {
               Weave a winter that feels handmade.
             </h1>
             <p className="text-fg-muted text-lg max-w-md mb-8">
-              Shawls, stoles, and knitted wear from the Ludhiana looms. Wholesale
-              and bulk orders for retailers across India — call for a quote.
+              Shawl wholesaler and knitted stole manufacturer from the Ludhiana
+              looms — supplying retailers across India. Call for a quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

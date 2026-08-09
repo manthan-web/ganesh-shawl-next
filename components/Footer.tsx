@@ -1,69 +1,89 @@
-import React from 'react';
-import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
+import React from "react";
+import { Phone, Mail, MapPin, Instagram, MessageCircle } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import { BRAND, categories } from "../data/product";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-10 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Ganesh Shawl Emporium</h3>
-            <p className="text-gray-400 mb-6">
-              Exquisite handcrafted shawls, stoles, and mufflers that blend tradition with luxury.
+    <footer className="bg-dark text-white">
+      <div className="container mx-auto px-4 md:px-6 py-12 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="md:col-span-2">
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/images/brand/logo.png"
+                alt="Ganesh Shawl Emporium"
+                width={64}
+                height={48}
+                className="h-14 w-auto"
+              />
+              <h3 className="font-display text-xl">{BRAND.name}</h3>
+            </div>
+            <p className="text-white/70 mb-6 max-w-md">
+              Handcrafted shawls, stoles, and knitted wear from the Ludhiana
+              looms. Wholesale &amp; bulk orders for retailers across India.
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="https://www.instagram.com/ganesh_shawl_emporiums_/" 
-                target="_blank" 
+            <div className="flex gap-4">
+              <a
+                href={BRAND.instagram}
+                target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-amber-500 transition-colors"
+                className="text-white/70 hover:text-accent transition-colors"
+                aria-label="Instagram"
               >
-                <Instagram size={24} />
+                <Instagram size={22} />
+              </a>
+              <a
+                href={`https://wa.me/${BRAND.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-accent transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle size={22} />
               </a>
             </div>
           </div>
-          
+
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <Phone size={20} className="text-amber-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">+91 9872531240, 9803457668</span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <Mail size={20} className="text-amber-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">info@ganeshshawls.com</span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <MapPin size={20} className="text-amber-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">
-                Street No.8, Mochpura Bazar, Chaura Bazar, <br /> Old Ludhiana, Ludhiana, Punjab 141008
+            <h3 className="font-display text-lg mb-4">Collections</h3>
+            <ul className="space-y-2 text-white/70">
+              {categories.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/category/${c.slug}`} className="hover:text-accent transition-colors">
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-display text-lg mb-4">Contact</h3>
+            <ul className="space-y-3 text-white/70">
+              <li className="flex items-start gap-3">
+                <Phone size={18} className="text-accent mt-0.5 flex-shrink-0" />
+                <span>
+                  {BRAND.phone1}
+                  <br />
+                  {BRAND.phone2}
                 </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Mail size={18} className="text-accent mt-0.5 flex-shrink-0" />
+                <span>info@ganeshshawls.com</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin size={18} className="text-accent mt-0.5 flex-shrink-0" />
+                <span>{BRAND.address}</span>
               </li>
             </ul>
           </div>
-          
-          {/* <div>
-            <h3 className="text-xl font-semibold mb-4">Opening Hours</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li className="flex justify-between">
-                <span>Monday - Friday:</span>
-                <span>10:00 AM - 7:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday:</span>
-                <span>10:00 AM - 6:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Sunday:</span>
-                <span>Closed</span>
-              </li>
-            </ul>
-          </div> */}
         </div>
-        
-        <div className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Ganesh Shawl Emporium. All rights reserved.</p>
+
+        <div className="border-t border-white/10 mt-10 pt-6 text-center text-white/50 text-sm">
+          <p>© {new Date().getFullYear()} {BRAND.name}. All rights reserved.</p>
         </div>
       </div>
     </footer>

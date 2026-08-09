@@ -1,44 +1,32 @@
-import React from 'react';
-import { Product } from '../data/types';
-import Image from 'next/image';
-
+import React from "react";
+import { Product } from "../data/types";
+import Image from "next/image";
+import Link from "next/link";
 
 interface ProductCardProps {
   product: Product;
-  onImageClick: () => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product, onImageClick }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-      <div 
-        className="relative h-auto overflow-hidden cursor-pointer"
-        onClick={onImageClick}
-      >
-        <Image 
-          src={product.image} 
-          alt={product.name} 
-          width={400}
-          height={400}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+    <Link
+      href={`/product/${product.id}`}
+      className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg border border-line transition-shadow duration-300"
+    >
+      <div className="aspect-[3/4] relative overflow-hidden bg-bg-soft">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-black opacity-0 hover:opacity-20 transition-opacity duration-300"></div>
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">
-          {product.name}
-        </h3>
-        <div className="flex justify-between items-center">
-          {/* <span className="text-amber-600 font-medium">₹{product.price.toLocaleString()}</span> */}
-          <a 
-            href={`tel:+919872531240`}
-            className="px-3 py-2 bg-amber-600 text-white text-md rounded hover:bg-amber-700 transition-colors"
-          >
-            Call Now
-          </a>
-        </div>
+        <h3 className="font-medium text-fg leading-snug">{product.name}</h3>
+        <p className="mt-1 text-sm text-fg-muted">{product.details.material}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 

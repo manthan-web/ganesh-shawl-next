@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative -mt-16 pt-28 pb-16 md:pt-40 md:pb-24 overflow-hidden">
+      <section className="relative pt-24 pb-16 md:-mt-16 md:pt-40 md:pb-24 overflow-hidden">
         <div className="absolute inset-0 opacity-[0.07] texture-divider" />
         <div className="container relative mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>

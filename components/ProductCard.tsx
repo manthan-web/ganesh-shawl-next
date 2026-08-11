@@ -24,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </div>
       <div className="p-4">
         <h3 className="font-medium text-fg leading-snug">{product.name}</h3>
-        <p className="mt-1 text-sm text-fg-muted">{product.details.material}</p>
+        <p className="mt-1 text-sm text-fg-muted line-clamp-2">{product.blurb}</p>
       </div>
     </Link>
   );

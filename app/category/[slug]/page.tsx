@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 import { categories, getCategory, getProductsByCategory, BRAND } from "@/data/product";
 import ProductCard from "@/components/ProductCard";
 import CtaBand from "@/components/CtaBand";
@@ -17,8 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategory(slug);
   if (!category) return {};
   return {
-    title: category.name,
+    title: `${category.name} | Manufacturer & Wholesaler in Ludhiana, Punjab`,
     description: category.description,
+    keywords: [category.name, "stole manufacturer Ludhiana", "wholesale Ludhiana Punjab"],
     alternates: { canonical: `${BRAND.baseUrl}/category/${category.slug}` },
   };
 }
@@ -32,10 +35,19 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div>
-      <section className="pt-28 md:pt-40 pb-12 md:pb-16 bg-bg-soft">
+      <section className="pt-24 md:pt-36 pb-12 md:pb-16 bg-bg-soft">
         <div className="container mx-auto px-4 md:px-6">
+          <nav aria-label="Breadcrumb" className="text-sm text-fg-muted mb-4">
+            <ol className="flex flex-wrap items-center gap-1.5">
+              <li>
+                <Link href="/" className="hover:text-accent transition-colors">Home</Link>
+              </li>
+              <ChevronRight size={14} className="text-fg/30" />
+              <li className="text-fg" aria-current="page">{category.name}</li>
+            </ol>
+          </nav>
           <p className="text-accent font-medium tracking-widest uppercase text-sm mb-3">
-            Collection
+            Manufacturer & Wholesaler in Ludhiana, Punjab
           </p>
           <h1 className="font-display text-4xl md:text-5xl text-fg mb-4">
             {category.name}
@@ -79,6 +91,26 @@ export default async function CategoryPage({ params }: Props) {
               </div>
             </div>
           )}
+        </div>
+      </section>
+      <section className="pb-10">
+        <div className="container mx-auto px-4 md:px-6">
+          <h2 className="font-display text-xl text-fg mb-4">
+            Browse our other collections
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {categories
+              .filter((c) => c.slug !== slug)
+              .map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/category/${c.slug}`}
+                  className="px-4 py-2 rounded-full border border-fg/20 text-sm text-fg hover:border-accent hover:text-accent transition-colors"
+                >
+                  {c.name}
+                </Link>
+              ))}
+          </div>
         </div>
       </section>
       <CtaBand />

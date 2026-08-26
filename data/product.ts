@@ -7,7 +7,7 @@ export const BRAND = {
   whatsapp: '919872531240',
   instagram: 'https://www.instagram.com/ganeshshawlemp.in/',
   address: 'Street No.8, Mochpura Bazar, Chaura Bazar, Old Ludhiana, Ludhiana, Punjab 141008',
-  baseUrl: 'https://ganeshshawlemporium.com',
+  baseUrl: 'https://ganesh-shawl-next.vercel.app',
 };
 
 export const categories: Category[] = [
@@ -23,14 +23,14 @@ export const categories: Category[] = [
     name: 'Shawls',
     tagline: 'Traditional shawls woven the old way.',
     description:
-      'Classic pure-wool shawls from the Ludhiana looms. We wholesale to retailers across India — photographs of the current collection coming soon.',
+      'Wholesale shawls from the Ludhiana looms, including classic pure-wool styles and seasonal designs for retailers across India. Contact us for current colours, availability, MOQ, and pricing.',
   },
   {
     slug: 'stoles',
     name: 'Stoles',
     tagline: 'Lightweight stoles for every season.',
     description:
-      'Everyday stoles in pure cotton, silk, and blended weaves. Worthy of the wholesale order. Photographs of the current collection coming soon.',
+      'Wholesale stoles in pure cotton, silk, and blended weaves for retailers, boutiques, and online sellers across India. Contact us for current designs, availability, MOQ, and pricing.',
   },
 ];
 

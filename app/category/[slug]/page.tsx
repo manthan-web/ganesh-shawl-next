@@ -23,6 +23,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: category.description,
     keywords: [category.name, "stole manufacturer Ludhiana", "wholesale Ludhiana Punjab"],
     alternates: { canonical: `${BRAND.baseUrl}/category/${category.slug}` },
+    openGraph: {
+      title: `${category.name} | Ganesh Shawl Emporium`,
+      description: category.description,
+      url: `${BRAND.baseUrl}/category/${category.slug}`,
+      type: "website",
+    },
   };
 }
 
@@ -66,12 +72,12 @@ export default async function CategoryPage({ params }: Props) {
           ) : (
             <div className="max-w-xl mx-auto text-center py-16">
               <h2 className="font-display text-2xl text-fg mb-3">
-                Photographs coming soon
+                Request the current collection
               </h2>
               <p className="text-fg-muted mb-8">
-                The {category.name.toLowerCase()} collection is on our looms.
-                Call or WhatsApp us and we&apos;ll send current availability and
-                wholesale prices right away.
+                Our current {category.name.toLowerCase()} catalogue is available
+                on request. Call or WhatsApp us for available designs, colours,
+                wholesale prices, and delivery details.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-3">
                 <a

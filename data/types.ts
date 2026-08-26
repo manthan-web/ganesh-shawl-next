@@ -26,4 +26,5 @@ export interface Category {
   name: string;
   tagline: string;
   description: string;
+  seoDescription: string;
 }

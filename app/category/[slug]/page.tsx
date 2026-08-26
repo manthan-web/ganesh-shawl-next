@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategory(slug);
   if (!category) return {};
   return {
-    title: `${category.name} | Manufacturer & Wholesaler in Ludhiana, Punjab`,
-    description: category.description,
+    title: `${category.name} Wholesale in Ludhiana`,
+    description: category.seoDescription,
     keywords: [category.name, "stole manufacturer Ludhiana", "wholesale Ludhiana Punjab"],
     alternates: { canonical: `${BRAND.baseUrl}/category/${category.slug}` },
     openGraph: {
       title: `${category.name} | Ganesh Shawl Emporium`,
-      description: category.description,
+      description: category.seoDescription,
       url: `${BRAND.baseUrl}/category/${category.slug}`,
       type: "website",
     },
@@ -38,9 +38,32 @@ export default async function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const items = getProductsByCategory(slug);
+  const categoryUrl = `${BRAND.baseUrl}/category/${category.slug}`;
+  const categorySchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        name: category.name,
+        description: category.description,
+        url: categoryUrl,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BRAND.baseUrl },
+          { "@type": "ListItem", position: 2, name: category.name, item: categoryUrl },
+        ],
+      },
+    ],
+  };
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categorySchema) }}
+      />
       <section className="pt-24 md:pt-36 pb-12 md:pb-16 bg-bg-soft">
         <div className="container mx-auto px-4 md:px-6">
           <nav aria-label="Breadcrumb" className="text-sm text-fg-muted mb-4">

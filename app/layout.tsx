@@ -27,15 +27,15 @@ const baseUrl = BRAND.baseUrl;
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: `${BRAND.name} — Handcrafted Shawls, Stoles & Knitted Wear`,
+    default: `Shawl & Stole Wholesaler in Ludhiana | ${BRAND.name}`,
     template: `%s | ${BRAND.name}`,
   },
   description:
-    "Ganesh Shawl Emporium — shawl wholesaler and knitted stole manufacturer in Ludhiana. Handcrafted shawls, stoles, and knitted wear from the local looms. Wholesale & bulk orders, call +91 9872531240 for a quote.",
+    "Shawl and knitted stole wholesaler in Ludhiana, Punjab. Ganesh Shawl Emporium supplies handcrafted wraps to retailers across India. Request a quote.",
   openGraph: {
-    title: `${BRAND.name} — Shawl Wholesaler & Handcrafted Stoles, Ludhiana`,
+    title: `Shawl & Stole Wholesaler in Ludhiana | ${BRAND.name}`,
     description:
-      "Two-generation merchant of shawls, stoles, and knitted wear from the Ludhiana looms. Wholesale and bulk orders from retailers across India, call +91 9872531240.",
+      "Handcrafted shawls, stoles, and knitted wear from Ludhiana for retailers and bulk buyers across India. Contact Ganesh Shawl Emporium for a quote.",
     url: baseUrl,
     siteName: BRAND.name,
     type: "website",

@@ -17,6 +17,8 @@ export const categories: Category[] = [
     tagline: 'Hand-knitted, worn-year-round warmth.',
     description:
       'Knitted stole manufacturer and wholesale supplier in Ludhiana, Punjab. Our stoles are handcrafted in soft wool blends — cozy, breathable, and built to live through winters for years. Trusted by retailers across India for bulk knitted stole supply at wholesale prices.',
+    seoDescription:
+      'Knitted stole manufacturer and wholesale supplier in Ludhiana, Punjab. Soft wool-blend stoles for retailers and bulk buyers across India.',
   },
   {
     slug: 'shawls',
@@ -24,6 +26,8 @@ export const categories: Category[] = [
     tagline: 'Traditional shawls woven the old way.',
     description:
       'Wholesale shawls from the Ludhiana looms, including classic pure-wool styles and seasonal designs for retailers across India. Contact us for current colours, availability, MOQ, and pricing.',
+    seoDescription:
+      'Wholesale shawls from Ludhiana, Punjab, including pure-wool styles for retailers and bulk buyers across India. Ask for current colours and pricing.',
   },
   {
     slug: 'stoles',
@@ -31,6 +35,8 @@ export const categories: Category[] = [
     tagline: 'Lightweight stoles for every season.',
     description:
       'Wholesale stoles in pure cotton, silk, and blended weaves for retailers, boutiques, and online sellers across India. Contact us for current designs, availability, MOQ, and pricing.',
+    seoDescription:
+      'Wholesale stoles from Ludhiana in cotton, silk, and blended weaves for retailers across India. Ask for current designs, MOQ, and pricing.',
   },
 ];
 
@@ -56,7 +62,7 @@ export const products: Product[] = [
     name: 'Classic Rib Knitted Stole For Women',
     blurb: 'Soft wool-blend knit. Clean rib finish, everyday wear.',
     intro:
-      'Knitted Stole Manufacturer India, Knitted Stoles Wholesaler India, Knitted Stoles Supplier Ludhiana — this Classic Rib Knitted Stole is one of our most ordered wholesale pieces. A clean, everyday knitted stole in a classic rib finish.',
+      'This Classic Rib Knitted Stole is one of our most ordered wholesale pieces. It has a clean, everyday rib finish with a soft drape for easy retail styling.',
     description:
       'Soft against the skin, comfortably warm, and neutral enough to go with everything you own. The rib structure keeps the drape tidy while the wool-blend yarn adds real warmth without the itch of coarse wools. Finished at our Ludhiana, Punjab workshop, this knitted stole ships across India in bulk lots for retailers, boutiques, and online sellers. Order a full-size knitted stole for women or men, stock several shades, and sell it through every winter — this is the wholesale knitted stole design retailers reorder season after season.',
     hindi:
@@ -76,7 +82,7 @@ export const products: Product[] = [
     name: 'Herringbone Knitted Stole For Women',
     blurb: 'Fine herringbone weave in rich neutral tones.',
     intro:
-      'Wool Blend Stole Manufacturer India, Herringbone Stole Wholesaler, Knitted Stoles Supplier Ludhiana Punjab — a fine herringbone weave in rich neutral tones. Structured enough for a suit, soft enough for an all-day layer.',
+      'A fine herringbone weave in rich neutral tones, structured enough for a suit and soft enough for an all-day layer. A versatile wholesale design for winter collections.',
     description:
       'The herringbone pattern adds quiet sophistication to a winter layer, and the wool-blend body drapes cleanly over suits, kurtas, and casual wear alike. Woven and knitted at our Ludhiana, Punjab unit and supplied in wholesale quantities across India. Retailers pair this herringbone knit with formal menswear and premium ladies\' section — a dependable wholesale knitted stole for year-round turnover.',
     hindi:
@@ -96,7 +102,7 @@ export const products: Product[] = [
     name: 'Self Design Knitted Stole For Women',
     blurb: 'Subtle self-pattern knit, quiet texture with depth.',
     intro:
-      'Designer Stole Manufacturer India, Self Design Stole Wholesaler, Knitted Stole Supplier Ludhiana — a subtle self-pattern knit that reads as quiet texture from afar and comes alive up close.',
+      'A subtle self-pattern knit that reads as quiet texture from afar and comes alive up close. Its understated finish makes it easy to merchandise across winter collections.',
     description:
       'A wardrobe staple for winters that photographs well and sells even better. The self-pattern keeps the stole easy to pair, while the hand-finished edges reflect the quality buyers expect from an established Ludhiana knitwear manufacturer. Bulk orders dispatched pan-India with retail-ready packaging — real wholesale value for boutiques and multi-brand stores.',
     hindi:
@@ -116,7 +122,7 @@ export const products: Product[] = [
     name: 'Textured Block Knitted Stole For Women',
     blurb: 'Chunky block knit with a plush, substantial hand feel.',
     intro:
-      'Chunky Knitted Stole Manufacturer India, Block Knit Stole Wholesaler, Ludhiana Stole Supplier — a chunky-block knit with a plush hand feel. Soft, warm, and substantial without the weight of a heavy fabric.',
+      'A chunky-block knit with a plush hand feel. Soft, warm, and substantial without the weight of a heavy fabric, it makes a distinctive addition to a winter range.',
     description:
       'The block pattern gives this stole a rich, three-dimensional look that stands out on the rack — exactly what standalone boutiques look for in a winter line. Produced in bulk at our Ludhiana, Punjab unit with consistent colour and finish across every batch. Supply it to retailers across India at wholesale rates and keep your shelves moving through peak winter.',
     hindi:
@@ -136,7 +142,7 @@ export const products: Product[] = [
     name: 'Ribbed Knitted Stole For Women',
     blurb: 'Fine ribbed knit that drapes cleanly on the shoulder.',
     intro:
-      'Ribbed Stole Manufacturer India, Ribbed Stole Wholesaler India, Knitted Stoles Exporter Ludhiana — a fine ribbed knit that drapes cleanly on the shoulder. Pairs as effortlessly with a blazer as it does at home on a cold evening.',
+      'A fine ribbed knit that drapes cleanly on the shoulder. It pairs as easily with a blazer as it does with casual winter wear, making it a dependable retail staple.',
     description:
       'One of the highest-moving ribbed knit designs from our Ludhiana looms — soft, stretchy, and universally wearable. The rib construction hugs the neckline without bunching, making it a favourite among corporate gifting buyers and fashion retailers alike. Ask for bulk pricing and customize with your own shade across an order — wholesale knitted stoles from a manufacturer who actually makes what you sell.',
     hindi:
@@ -156,7 +162,7 @@ export const products: Product[] = [
     name: 'Pebble Knitted Stole For Women',
     blurb: 'Subtle pebble texture that catches light beautifully.',
     intro:
-      'Pebble Knitted Stole Manufacturer India, Textured Stole Wholesaler, Knitted Stoles Supplier Ludhiana Punjab — knitted with a subtle pebble texture that catches light beautifully. A quiet statement piece for winters.',
+      'Knitted with a subtle pebble texture that catches light beautifully. This quiet statement piece adds a premium-looking texture to winter retail displays.',
     description:
       'The pebble texture gives a soft, boutique feel without being loud — ideal for premium retail shelves and gifting. Knitted in wool blend at our Ludhiana, Punjab factory, with even texture across every metre. Wholesale buyers across India order this design for its unique finish and dependable repeat sales.',
     hindi:
@@ -176,7 +182,7 @@ export const products: Product[] = [
     name: 'Waffle Stitch Knitted Stole For Women',
     blurb: 'Waffle-stitch knit with extra warmth and air pockets.',
     intro:
-      'Waffle Knit Stole Manufacturer India, Warm Stole Wholesaler, Ludhiana Knitted Stole Exporter — a waffle-stitch knit offering extra warmth and air pockets. Practical, warm, and effortlessly stylish.',
+      'A waffle-stitch knit offering extra warmth and air pockets. Practical and effortlessly stylish, it is a reliable choice for colder-weather retail collections.',
     description:
       'Waffle stitch is the winter workhorse — the three-dimensional weave traps warmth while staying breathable, and the structure holds its shape wash after wash. This is our recommended design for northern India winters, supplied in bulk to retailers from Ludhiana to Delhi. Wholesale pricing, steady quality, one carton to a hundred — a manufacturer you can reorder from all season.',
     hindi:
@@ -196,7 +202,7 @@ export const products: Product[] = [
     name: 'Shell Pattern Knitted Stole For Women',
     blurb: 'Gentle all-over shell repeat, hand-finished.',
     intro:
-      'Shell Pattern Stole Manufacturer India, Designer Knitted Stole Wholesaler, Knitted Stole Supplier Ludhiana — a shell-pattern knit with a gentle allover repeat. Soft, detailed, and unmistakably hand-finished.',
+      'A shell-pattern knit with a gentle allover repeat. Soft, detailed, and hand-finished, it brings a decorative option to boutique winter collections.',
     description:
       'A feminine, decorative knit that outsells plain designs in boutique retail — the shell repeat reads as intricate without ever looking busy. Hand-finished edges and even colour define every batch from our Ludhiana, Punjab unit. Retailers and online sellers stock this design for its Instagram-ready look and strong festival-season sales.',
     hindi:
@@ -216,7 +222,7 @@ export const products: Product[] = [
     name: 'Deep Textured Knitted Stole For Women',
     blurb: 'Deep-textured knit in a warm winter tone.',
     intro:
-      'Textured Knitted Stole Manufacturer India, Winter Stole Wholesaler, Ludhiana Punjab Stole Supplier — a deep-textured knit in a warm winter tone. Throws a lot of character into the simplest outfits.',
+      'A deep-textured knit in a warm winter tone that brings character to simple outfits. Its dimensional finish gives retailers a standout option for winter displays.',
     description:
       'Best for buyers who want a stole that looks expensive on a budget — the deep texture creates rich play of light and shade from yarn structure alone. Made in bulk at our Ludhiana, Punjab factory with consistent texture and colour across production runs. A wholesale winter staple for north Indian retailers.',
     hindi:
@@ -236,7 +242,7 @@ export const products: Product[] = [
     name: 'Mosaic Stitch Knitted Stole For Women',
     blurb: 'Small repeating blocks, warm and structured.',
     intro:
-      'Mosaic Knitted Stole Manufacturer India, Geometric Stole Wholesaler, Knitted Stoles Supplier Punjab — a mosaic-stitch knit built of small repeating blocks. Warm, structured, and a favorite for winter mornings.',
+      'A mosaic-stitch knit built of small repeating blocks. Warm and structured, it brings a modern geometric look to everyday winter styling.',
     description:
       'The geometric block structure gives this stole a crisp, modern character that sells across age groups. Knitted in wool blend at our Ludhiana, Punjab unit, it keeps its shape through repeated wear and folding — important for retail shelves. Bulk supply available pan-India with strict quality checks on every piece.',
     hindi:
@@ -256,7 +262,7 @@ export const products: Product[] = [
     name: 'Cozy Knitted Stole For Women',
     blurb: 'The kind of knit you reach for first, all season.',
     intro:
-      'Cozy Knitted Stole Manufacturer India, Everyday Stole Wholesaler, Knitted Stole Supplier Ludhiana Punjab — the kind of knit you reach for first. A classic knit with a soft, warm drape, comfortable enough to live in all season.',
+      'The kind of knit you reach for first. This classic stole has a soft, warm drape that is comfortable enough for everyday wear throughout the season.',
     description:
       'Our baseline wholesale design, and still our most reordered: soft yarn, clean knitting, warm drape, honest sizing. Made at our Ludhiana, Punjab workshop in bulk, with consistent quality across every carton. Ideal first order for new retail buyers — proven design that sells at any price point.',
     hindi:
@@ -276,7 +282,7 @@ export const products: Product[] = [
     name: 'Paisley Border Viscose Acrylic Stole',
     blurb: 'Drapey viscose acrylic stole with designer border work.',
     intro:
-      'Viscose Acrylic Stole Manufacturer India, Border Work Stole Wholesaler, Stoles Supplier Ludhiana Punjab — our hero stole, shot fresh from the new batch. A drapey viscose acrylic stole with a rich designer border.',
+      'A drapey viscose acrylic stole with a rich designer border. Its light fall works for everyday layering as well as occasion-led retail collections.',
     description:
       'Light, flowy, and finished with striking border work — this is the stole style buyers keep asking for. The viscose acrylic blend gives it a soft fall and comfortable weight for year-round wear, and the border elevates it from everyday to occasion wear. Produced in bulk at our Ludhiana, Punjab unit and shipped to retailers across India. Wholesale rates on this design are our most competitive this season — message us for current stock and pricing.',
     hindi:

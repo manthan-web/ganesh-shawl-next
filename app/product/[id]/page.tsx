@@ -19,14 +19,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const product = getProduct(Number(id));
   if (!product) return {};
+  const seoName = product.name.replace(/ For Women$/, "");
   return {
-    title: `${product.name} | Knitted Stole Manufacturer in Ludhiana, Punjab`,
-    description: product.blurb,
+    title: seoName,
+    description: `${product.blurb} Wholesale supply from Ludhiana for retailers, boutiques, and online sellers across India.`,
     keywords: product.keywords,
     alternates: { canonical: `${BRAND.baseUrl}/product/${product.id}` },
     openGraph: {
-      title: `${product.name} | ${BRAND.name}`,
-      description: product.blurb,
+      title: `${seoName} | ${BRAND.name}`,
+      description: `${product.blurb} Wholesale supply from Ludhiana for retailers across India.`,
       url: `${BRAND.baseUrl}/product/${product.id}`,
       type: "website",
       images: [{ url: `${BRAND.baseUrl}${product.image}` }],
@@ -63,6 +64,7 @@ export default async function ProductPage({ params }: Props) {
             description: product.description,
             sku: product.itemCode,
             category: category?.name ?? product.category,
+            url: `${BRAND.baseUrl}/product/${product.id}`,
             material: product.specs.find((s) => s.label === "Fabric")?.value,
             image: `${BRAND.baseUrl}${product.image}`,
             brand: { "@type": "Brand", name: BRAND.name },

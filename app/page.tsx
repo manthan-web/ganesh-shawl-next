@@ -19,7 +19,7 @@ export default function Home() {
               Ludhiana · Est. the old way
             </p>
             <h1 className="font-display text-4xl md:text-6xl leading-tight text-fg mb-6">
-              Weave a winter that feels handmade.
+              Handcrafted Shawls &amp; Stoles from Ludhiana
             </h1>
             <p className="text-fg-muted text-lg max-w-md mb-8">
               Shawl wholesaler and knitted stole manufacturer from the Ludhiana

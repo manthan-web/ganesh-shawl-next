@@ -317,6 +317,66 @@ export const products: Product[] = [
     deliveryTime: '10–15 days after order confirmation',
     specs: specs('Viscose Blend', '1.8m x 0.7m', 'Hand wash cold', 'Kadai Embroidery'),
   },
+  {
+    id: 14,
+    name: 'Olive Green Tissue-Pattern Knitted Stole with Floral Patchwork',
+    blurb: 'Soft knitted stole with a tissue-inspired texture, floral borders, and leaf patchwork motifs.',
+    intro:
+      'An elegant olive green knitted stole with a tissue-inspired textured pattern, contrast floral borders, and decorative leaf patchwork detailing.',
+    description:
+      'This olive green knitted stole brings together a refined tissue-inspired texture, contrasting cream panels, floral border work, and decorative leaf patchwork motifs. The softly draped design is easy to style for winter wardrobes, festive collections, and premium retail displays. Supplied to wholesale buyers and retailers across India from our Ludhiana unit.',
+    hindi:
+      'ऑलिव ग्रीन टिश्यू-पैटर्न निटेड स्टोल — फ्लोरल बॉर्डर और लीफ पैचवर्क डिज़ाइन के साथ। सर्दियों और फेस्टिव कलेक्शन के लिए सुंदर।',
+    keywords: ['tissue design knitted stole', 'olive green stole wholesale', 'floral patchwork stole', 'knitted stole manufacturer'],
+    category: 'knitted-stoles',
+    image: '/images/knitted/68678ed4-9147-44ce-9cfc-806c1a9b16fc.jpg',
+    itemCode: 'KNS-114',
+    moq: '100 pieces',
+    packaging: 'Individual poly bag + carton packing',
+    productionCapacity: '5,000+ stoles per month',
+    deliveryTime: '10–15 days after order confirmation',
+    specs: specs('Knitted Blend', '1.8m x 0.7m', 'Hand wash cold', 'Tissue-Pattern Floral Patchwork'),
+  },
+  {
+    id: 15,
+    name: 'Blush Pink Tissue-Texture Knitted Stole with Floral Embroidery',
+    blurb: 'Soft pink knitted stole with a delicate textured finish and statement floral embroidery panels.',
+    intro:
+      'A graceful blush pink knitted stole with a tissue-inspired texture and floral embroidery panels placed for an elegant drape.',
+    description:
+      'This blush pink knitted stole features a soft tissue-inspired texture with decorative floral embroidery panels near the lower edges. Its light colour and flowing drape make it suitable for festive assortments, occasion wear, and premium retail displays. Supplied to wholesale buyers and retailers across India from our Ludhiana unit.',
+    hindi:
+      'ब्लश पिंक टिश्यू-टेक्सचर निटेड स्टोल — सुंदर फ्लोरल एम्ब्रॉयडरी पैनल और हल्के ड्रेप के साथ। फेस्टिव और प्रीमियम कलेक्शन के लिए उपयुक्त।',
+    keywords: ['pink tissue texture stole', 'floral embroidered stole wholesale', 'blush pink knitted stole', 'stole manufacturer Ludhiana'],
+    category: 'knitted-stoles',
+    image: '/images/knitted/4ca4069a-cf64-4550-93ec-18be68d04b82.png',
+    itemCode: 'KNS-115',
+    moq: '100 pieces',
+    packaging: 'Individual poly bag + carton packing',
+    productionCapacity: '5,000+ stoles per month',
+    deliveryTime: '10–15 days after order confirmation',
+    specs: specs('Knitted Blend', '1.8m x 0.7m', 'Hand wash cold', 'Tissue-Texture Floral Embroidery'),
+  },
+  {
+    id: 16,
+    name: 'Soft Pink Tissue-Pattern Knitted Stole with Floral Motifs',
+    blurb: 'Elegant pink knitted stole with tonal floral motifs, decorative borders, and a soft drape.',
+    intro:
+      'A soft pink knitted stole with a subtle tissue-inspired pattern, tonal floral motifs, and delicate border detailing.',
+    description:
+      'Designed in a gentle pink palette, this knitted stole combines a fine tissue-inspired texture with tonal floral motifs, a patterned front border, and a neat decorative hem. The versatile design works for festive dressing, winter layering, and refined retail collections. Available for wholesale buyers and retailers across India from our Ludhiana unit.',
+    hindi:
+      'सॉफ्ट पिंक टिश्यू-पैटर्न निटेड स्टोल — टोनल फ्लोरल मोटिफ और सुंदर बॉर्डर डिटेलिंग के साथ। थोक कलेक्शन के लिए उपलब्ध।',
+    keywords: ['pink floral knitted stole', 'tissue pattern stole wholesale', 'soft pink stole manufacturer', 'floral motif stole'],
+    category: 'knitted-stoles',
+    image: '/images/knitted/25d33a52-fcd9-464f-a2ee-f91266e58b09.jpg',
+    itemCode: 'KNS-116',
+    moq: '100 pieces',
+    packaging: 'Individual poly bag + carton packing',
+    productionCapacity: '5,000+ stoles per month',
+    deliveryTime: '10–15 days after order confirmation',
+    specs: specs('Knitted Blend', '1.8m x 0.7m', 'Hand wash cold', 'Tissue-Pattern Floral Motif'),
+  },
 ];
 
 export const heroImage = '/images/hero/feature-1.jpg';

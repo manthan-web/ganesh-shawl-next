@@ -16,14 +16,15 @@ export default function Home() {
         <div className="container relative mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-accent font-medium tracking-widest uppercase text-sm mb-4">
-              Ludhiana · Est. the old way
+              Ludhiana · Wholesale manufacturer
             </p>
             <h1 className="font-display text-4xl md:text-6xl leading-tight text-fg mb-6">
-              Handcrafted Shawls &amp; Stoles from Ludhiana
+              Wholesale Shawls &amp; Stoles Manufactured in Ludhiana
             </h1>
             <p className="text-fg-muted text-lg max-w-md mb-8">
-              Shawl wholesaler and knitted stole manufacturer from the Ludhiana
-              looms — supplying retailers across India. Call for a quote.
+              Bulk shawl and stole manufacturer from the Ludhiana looms —
+              supplying retailers and wholesalers across India. GST registered,
+              with PAN-India delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -40,11 +41,14 @@ export default function Home() {
                 Call {BRAND.phone1}
               </a>
             </div>
+            <p className="mt-5 text-sm text-fg-muted leading-relaxed">
+              GST: 03ACMPN1472H1Z0 <span aria-hidden="true">·</span> PAN-India shipping
+            </p>
           </div>
           <div className="relative">
             <Image
               src="/images/hero/feature-1.jpg"
-              alt="Handcrafted knitted stoles at Ganesh Shawl Emporium"
+              alt="Kadai embroidery stole with patchwork floral detailing"
               width={1086}
               height={1448}
               priority

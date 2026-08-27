@@ -9,7 +9,8 @@ import { BRAND, products } from "../data/product";
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [knitsOpen, setKnitsOpen] = useState(false);
+  const [stolesOpen, setStolesOpen] = useState(false);
+  const [topPicksOpen, setTopPicksOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -20,7 +21,8 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     setMobileMenuOpen(false);
-    setKnitsOpen(false);
+    setStolesOpen(false);
+    setTopPicksOpen(false);
   }, [pathname]);
 
   const knitProducts = products.slice(0, 5);
@@ -60,16 +62,6 @@ const Navbar: React.FC = () => {
               Home
             </Link>
             <Link
-              href="/category/knitted-stoles"
-              className={`text-sm font-medium tracking-wide transition-colors ${
-                pathname.includes("knitted-stoles")
-                  ? "text-accent"
-                  : "text-fg-muted hover:text-fg"
-              }`}
-            >
-              Knitted Stoles
-            </Link>
-            <Link
               href="/category/shawls"
               className={`text-sm font-medium tracking-wide transition-colors ${
                 pathname === "/category/shawls"
@@ -79,36 +71,54 @@ const Navbar: React.FC = () => {
             >
               Shawls
             </Link>
-            <Link
-              href="/category/stoles"
-              className={`text-sm font-medium tracking-wide transition-colors ${
-                pathname === "/category/stoles"
-                  ? "text-accent"
-                  : "text-fg-muted hover:text-fg"
-              }`}
-            >
-              Stoles
-            </Link>
             <div
               className="relative"
-              onMouseEnter={() => setKnitsOpen(true)}
-              onMouseLeave={() => setKnitsOpen(false)}
+              onMouseEnter={() => setStolesOpen(true)}
+              onMouseLeave={() => setStolesOpen(false)}
             >
               <button
                 type="button"
                 className="flex items-center gap-1 text-sm font-medium tracking-wide text-fg-muted hover:text-fg transition-colors"
-                aria-expanded={knitsOpen}
+                aria-expanded={stolesOpen}
+                aria-haspopup="true"
+              >
+                Stoles
+                <ChevronDown size={14} className={stolesOpen ? "rotate-180" : ""} />
+              </button>
+              {stolesOpen && (
+                <div className="absolute left-0 top-full pt-3">
+                  <div className="w-52 rounded-xl bg-white border border-line shadow-lg p-2">
+                    <Link href="/category/stoles" className="block px-3 py-2 rounded-lg text-sm text-fg hover:bg-accent-soft transition-colors">
+                      All Stoles
+                    </Link>
+                    <Link href="/category/knitted-stoles" className="flex items-center justify-between px-3 py-2 rounded-lg text-sm text-fg hover:bg-accent-soft transition-colors">
+                      Knitted Stoles
+                      <span className="text-[10px] uppercase tracking-wide text-accent">Bestseller</span>
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div
+              className="relative"
+              onMouseEnter={() => setTopPicksOpen(true)}
+              onMouseLeave={() => setTopPicksOpen(false)}
+            >
+              <button
+                type="button"
+                className="flex items-center gap-1 text-sm font-medium tracking-wide text-fg-muted hover:text-fg transition-colors"
+                aria-expanded={topPicksOpen}
                 aria-haspopup="true"
               >
                 Top Picks
                 <ChevronDown
                   size={14}
                   className={`transition-transform ${
-                    knitsOpen ? "rotate-180" : ""
+                    topPicksOpen ? "rotate-180" : ""
                   }`}
                 />
               </button>
-              {knitsOpen && (
+              {topPicksOpen && (
                 <div className="absolute right-0 top-full pt-3">
                   <div className="w-64 rounded-xl bg-white border border-line shadow-lg p-2">
                     {knitProducts.map((p) => (
@@ -158,13 +168,13 @@ const Navbar: React.FC = () => {
               href={`https://wa.me/${BRAND.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-accent text-white text-sm font-medium"
+              className="inline-flex min-h-11 min-w-11 items-center justify-center gap-1.5 px-3 py-2 rounded-full bg-accent text-white text-sm font-medium"
               aria-label="WhatsApp"
             >
               <MessageCircle size={16} />
             </a>
             <button
-              className="text-fg p-1"
+              className="text-fg min-h-11 min-w-11 inline-flex items-center justify-center"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -184,23 +194,33 @@ const Navbar: React.FC = () => {
                 Home
               </Link>
               <Link
-                href="/category/knitted-stoles"
-                className="px-3 py-2.5 rounded-lg font-medium text-fg hover:bg-accent-soft"
-              >
-                Knitted Stoles
-              </Link>
-              <Link
                 href="/category/shawls"
                 className="px-3 py-2.5 rounded-lg font-medium text-fg hover:bg-accent-soft"
               >
                 Shawls
               </Link>
-              <Link
-                href="/category/stoles"
-                className="px-3 py-2.5 rounded-lg font-medium text-fg hover:bg-accent-soft"
-              >
-                Stoles
-              </Link>
+              <div className="rounded-lg">
+                <button
+                  type="button"
+                  onClick={() => setStolesOpen(!stolesOpen)}
+                  className="w-full min-h-11 px-3 py-2.5 rounded-lg flex items-center justify-between font-medium text-fg hover:bg-accent-soft"
+                  aria-expanded={stolesOpen}
+                >
+                  Stoles
+                  <ChevronDown size={18} className={stolesOpen ? "rotate-180" : ""} />
+                </button>
+                {stolesOpen && (
+                  <div className="pl-3">
+                    <Link href="/category/stoles" className="flex min-h-11 items-center px-3 py-2 rounded-lg text-sm text-fg-muted hover:bg-accent-soft">
+                      All Stoles
+                    </Link>
+                    <Link href="/category/knitted-stoles" className="flex min-h-11 items-center justify-between px-3 py-2 rounded-lg text-sm text-fg-muted hover:bg-accent-soft">
+                      Knitted Stoles
+                      <span className="text-[10px] uppercase tracking-wide text-accent">Bestseller</span>
+                    </Link>
+                  </div>
+                )}
+              </div>
 
               <div className="mt-2 pt-2 border-t border-line">
                 <p className="px-3 pb-2 text-xs font-medium uppercase tracking-widest text-fg-muted">
@@ -210,7 +230,7 @@ const Navbar: React.FC = () => {
                   <Link
                     key={p.id}
                     href={`/product/${p.id}`}
-                    className="block px-3 py-2 rounded-lg text-sm text-fg-muted hover:bg-accent-soft hover:text-fg"
+                    className="flex min-h-11 items-center px-3 py-2 rounded-lg text-sm text-fg-muted hover:bg-accent-soft hover:text-fg"
                   >
                     {p.name}
                   </Link>

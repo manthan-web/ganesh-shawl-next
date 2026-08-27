@@ -288,7 +288,7 @@ export const products: Product[] = [
     hindi:
       'पेसले बॉर्डर वाला विस्कोज़ एक्रिलिक स्टोल — हल्का, बहने जैसा फ़ॉल और शानदार बॉर्डर वर्क। इस सीज़न का हीरो डिज़ाइन, थोक मूल्य पर उपलब्ध।',
     keywords: ['viscose acrylic stole', 'border work stole', 'fancy stole wholesale', 'stole for women'],
-    category: 'knitted-stoles',
+    category: 'stoles',
     image: '/images/knitted/knit-12.jpg',
     itemCode: 'KNS-112',
     moq: '100 pieces',
@@ -296,6 +296,26 @@ export const products: Product[] = [
     productionCapacity: '5,000+ stoles per month',
     deliveryTime: '10–15 days after order confirmation',
     specs: specs('Viscose Acrylic Blend', '1.8m x 0.4m', 'Hand wash cold', 'Paisley Border Work'),
+  },
+  {
+    id: 13,
+    name: 'Kadai Embroidery Stole with Patchwork Border',
+    blurb: 'Lightweight stole with delicate embroidery and patchwork-inspired floral detailing.',
+    intro:
+      'A softly draped stole featuring Kadai-style embroidery and patchwork-inspired floral detailing for festive and occasion-led collections.',
+    description:
+      'This embroidered stole combines a light, elegant drape with delicate floral detailing and a decorative patchwork-inspired border. Its neutral palette makes it easy to merchandise for festive dressing, occasion wear, and everyday layering. Available for wholesale buyers and retailers across India from our Ludhiana unit.',
+    hindi:
+      'कढ़ाई और पैचवर्क बॉर्डर वाला हल्का स्टोल — त्योहारों और रोज़मर्रा के पहनावे के लिए सुंदर डिज़ाइन। थोक आपूर्ति के लिए उपलब्ध।',
+    keywords: ['kadai embroidery stole', 'embroidered stole wholesale', 'patchwork stole', 'floral stole for women'],
+    category: 'stoles',
+    image: '/images/hero/feature-1.jpg',
+    itemCode: 'STS-113',
+    moq: '100 pieces',
+    packaging: 'Individual poly bag + carton packing',
+    productionCapacity: '5,000+ stoles per month',
+    deliveryTime: '10–15 days after order confirmation',
+    specs: specs('Viscose Blend', '1.8m x 0.7m', 'Hand wash cold', 'Kadai Embroidery'),
   },
 ];
 

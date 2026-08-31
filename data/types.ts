@@ -28,3 +28,34 @@ export interface Category {
   description: string;
   seoDescription: string;
 }
+
+export interface BlogTable {
+  headers: string[];
+  rows: string[][];
+}
+
+export interface BlogSection {
+  heading: string;
+  paragraphs?: string[];
+  bullets?: string[];
+  table?: BlogTable;
+}
+
+export interface BlogFaq {
+  question: string;
+  answer: string;
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  metaDescription: string;
+  date: string;
+  author: string;
+  image: string;
+  imageAlt: string;
+  keywords: string[];
+  intro: string[];
+  sections: BlogSection[];
+  faqs: BlogFaq[];
+}

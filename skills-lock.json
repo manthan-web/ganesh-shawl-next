@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "content-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "computedHash": "4271d06ab1b6669bb39774128e6c0f71fa7f1d5ed4b15efa9353e3b8d8624bce"
+    }
+  }
+}

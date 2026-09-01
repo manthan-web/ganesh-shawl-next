@@ -62,7 +62,7 @@ export default function RootLayout({
     name: BRAND.name,
     description:
       "Shawl wholesaler and knitted stole manufacturer in Ludhiana. Handcrafted shawls, stoles, and knitted wear for wholesale and bulk orders across India.",
-    telephone: "+919872531240",
+    telephone: BRAND.phone1.replace(/\s/g, ""),
     email: "info@ganeshshawls.com",
     url: baseUrl,
     image: `${baseUrl}/images/brand/logo.png`,

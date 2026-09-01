@@ -254,13 +254,6 @@ const Navbar: React.FC = () => {
                   <Phone size={18} />
                   {BRAND.phone1}
                 </a>
-                <a
-                  href={`tel:${BRAND.phone2.replace(/\s/g, "")}`}
-                  className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full border border-fg/10 text-fg font-medium"
-                >
-                  <Phone size={18} />
-                  {BRAND.phone2}
-                </a>
               </div>
             </div>
           </div>

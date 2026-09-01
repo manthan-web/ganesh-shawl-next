@@ -104,7 +104,7 @@ export default async function CategoryPage({ params }: Props) {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-3">
                 <a
-                  href={`https://wa.me/919872531240`}
+                  href={`https://wa.me/${BRAND.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-accent text-white font-medium"
@@ -112,10 +112,10 @@ export default async function CategoryPage({ params }: Props) {
                   WhatsApp for details
                 </a>
                 <a
-                  href="tel:+919872531240"
+                  href={`tel:${BRAND.phone1.replace(/\s/g, "")}`}
                   className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-fg/20 text-fg font-medium"
                 >
-                  Call +91 9872531240
+                  Call {BRAND.phone1}
                 </a>
               </div>
             </div>

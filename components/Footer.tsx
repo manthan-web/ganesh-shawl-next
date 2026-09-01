@@ -97,8 +97,6 @@ const Footer: React.FC = () => {
                 <Phone size={18} className="text-accent mt-0.5 flex-shrink-0" />
                 <span>
                   {BRAND.phone1}
-                  <br />
-                  {BRAND.phone2}
                 </span>
               </li>
               <li className="flex items-start gap-3">

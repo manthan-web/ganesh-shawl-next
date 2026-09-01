@@ -2,9 +2,8 @@ import { Product, Category } from './types';
 
 export const BRAND = {
   name: 'Ganesh Shawl Emporium',
-  phone1: '+91 9872531240',
-  phone2: '+91 9803457668',
-  whatsapp: '919872531240',
+  phone1: '+91 9780969377',
+  whatsapp: '919780969377',
   instagram: 'https://www.instagram.com/ganeshshawlemp.in/',
   address: 'Street No.8, Mochpura Bazar, Chaura Bazar, Old Ludhiana, Ludhiana, Punjab 141008',
   baseUrl: 'https://ganesh-shawl-next.vercel.app',
